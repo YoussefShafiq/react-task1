@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navItem {
+  @apply p-4 hover:bg-orange-500 rounded-md hover:text-sky-950 transition-all mx-1 uppercase
+}
+
+.active {
+  @apply text-sky-100 border-b-2
+}
+
+.after::before {
+  content: '';
+  @apply absolute w-1/2 h-1 bg-orange-500 bottom-0 left-1/2 translate-x-[-50%]
+}
+
+.contactInput {
+  @apply border-b-orange-400 border rounded text-gray-950 px-2 py-2 my-3 focus:outline-none z-10
+}
+
+
+.ContactLabel {
+  @apply text-orange-600 font-semibold relative bottom-[-35px] transition-all
+}
+
+.focusedinput {
+  @apply bottom-0
+}
+
+.imgCont {
+  @apply cursor-pointer rounded-lg overflow-hidden
+}
+
+.portfolioImg {
+  @apply bg-sky-300 h-full w-full absolute transition-all top-0 opacity-0 hover:opacity-100 hover:bg-opacity-75 grid duration-[400ms]
+}
