@@ -1,14 +1,11 @@
 {
-  "homepage": "https://youssefshafiq.github.io/react-task1",
-  "name": "assignment-1",
-  "private": true,
+  "name": "react-task1",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
+    "serve": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

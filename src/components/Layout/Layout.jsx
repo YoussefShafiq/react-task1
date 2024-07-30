@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 export default function () {
     return <>
         <Navbar />
-        <div className="pt-[50px]">
+        <div className="pt-[70px]">
             <Outlet></Outlet>
         </div>
         <Footer />
