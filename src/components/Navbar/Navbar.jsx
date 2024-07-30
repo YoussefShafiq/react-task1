@@ -19,7 +19,7 @@ export default function Navbar() {
                     </button>
                 </div>
                 <ul className={`md:flex flex-col md:flex-row space-x-2 ${toggleNav ? 'flex' : 'hidden'}`}>
-                    <NavLink to="/react-task1/" className="navItem md:mx-2" onClick={() => { navtoggle() }}>
+                    <NavLink to="/react-task1/about" className="navItem md:mx-2" onClick={() => { navtoggle() }}>
                         about
                     </NavLink>
                     <NavLink to="/react-task1/portfolio" className="navItem md:mx-2 " onClick={() => { navtoggle() }}>
