@@ -9,11 +9,11 @@ import Portfolio from './components/Portfolio/Portfolio'
 
 let routers = createBrowserRouter([
   {
-    path: '/react-task1/', element: <Layout />, children: [
-      { path: '*', element: <ErrorPage /> },
+    path: '', element: <Layout />, children: [
       { index: true, element: <About /> },
       { path: 'portfolio', element: <Portfolio /> },
-      { path: 'contact', element: <Contact /> }
+      { path: 'contact', element: <Contact /> },
+      { path: '*', element: <ErrorPage /> }
     ]
   }
 
