@@ -11,7 +11,7 @@ let routers = createBrowserRouter([
   {
     path: '/react-task1/', element: <Layout />, children: [
       { path: '*', element: <ErrorPage /> },
-      { index: 'about', element: <About /> },
+      { index: true, element: <About /> },
       { path: 'about', element: <About /> },
       { path: 'portfolio', element: <Portfolio /> },
       { path: 'contact', element: <Contact /> }
