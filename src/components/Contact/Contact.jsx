@@ -8,7 +8,7 @@ export default function () {
         <div className='bg-gray-200 min-h-[calc(100vh-270px)] p-3'>
             <div className="container m-auto flex flex-col items-center">
                 <h1 className="uppercase text-orange-600 font-extrabold text-4xl mb-5 p-5 after relative">
-                    about section
+                    Contact section
                     <i className="fa-solid fa-star text-[20px] bg-gray-200 px-2 absolute text-orange-600 bottom-0 translate-y-1/4 w-11 text-center left-1/2 translate-x-[-50%]"></i>
                 </h1>
 

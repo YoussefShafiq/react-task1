@@ -10,7 +10,7 @@ import Home from './components/Home/Home'
 
 let routers = createBrowserRouter([
   {
-    path: '/react-task1/', element: <Layout />, children: [
+    path: '', element: <Layout />, children: [
       { index: true, element: <Home /> },
       { path: 'about', element: <About /> },
       { path: 'portfolio', element: <Portfolio /> },
