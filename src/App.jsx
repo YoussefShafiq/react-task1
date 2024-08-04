@@ -1,5 +1,5 @@
 import './App.css'
-import '@fortawesome/fontawesome-free/css/all.min.css'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
